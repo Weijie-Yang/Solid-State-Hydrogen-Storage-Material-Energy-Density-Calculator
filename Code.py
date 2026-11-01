@@ -1,18 +1,18 @@
-import streamlit as st
-import pandas as pd
-import plotly.graph_objects as go
-import math
+导入 streamlit 作为 st streamlit as st
+import pandas as pd pandas as pd
+导入 plotly.graph_objects 作为 go plotly.graph_objects as go
+导入数学 math
 
 # 设置页面
-st.set_page_config(
-    page_title="Solid-State Hydrogen Storage Material Energy Density Calculator",
-    page_icon="🔋",
-    layout="wide",
-    initial_sidebar_state="expanded"
+st.set_page_config(set_page_config(
+    页面标题="固态储氢材料能量密度计算器""Solid-State Hydrogen Storage Material Energy Density Calculator",
+    page_icon="🔋","🔋",
+    布局="宽"，"wide",
+    initial_sidebar_state="expanded""expanded"
 )
 
 # ==================== 自定义CSS样式 ====================
-st.markdown("""
+st.markdown("""        间隙: 2px;("""
 <style>
     .main-header {
         font-size: 2.5rem;
